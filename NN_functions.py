@@ -24,7 +24,7 @@ def img_data(df, int, fin, font):
     for i in df['kanji'][int:fin]:
         txt_img(i)
         name = '/Users/rashidalawadhi/Documents/GitHub/NN_kanji/kanji_images_CNN_extra'+'_'+font+'/kanji_' + str(no)+'.png'
-        plt.savefig(name, dpi=20)
+        plt.savefig(name, dpi=25)
         no +=1
         data.append(np.array(Image.open(name).convert('L')))
         plt.ioff()
