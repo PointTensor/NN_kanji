@@ -10,7 +10,7 @@ Latest performance:
 - 66.6% accuracy on the test set. 77.1% on a font which the model has not seen.
 - 72% accuracy on the test set. 79.9% on a font which the model has not seen.
 - 77% accuracy on the test set. 85.1% on a font which the model has not seen.
-* - Accuracy dropping to ~40% on unseen kanji typed in an unseen font.
+* - Accuracy dropping to ~40% on unseen kanji typed in an unseen font. Current performance at around 45%.
 
 To-do list:
 
